@@ -1,3 +1,3 @@
 # CommonError
 
-A description of this package.
+Simple error class with logging

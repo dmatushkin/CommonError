@@ -6,7 +6,7 @@ final class CommonErrorTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(CommonError().text, "Hello, World!")
+		XCTAssertEqual(CommonError(description: "test").localizedDescription, "test")
     }
 
     static var allTests = [
